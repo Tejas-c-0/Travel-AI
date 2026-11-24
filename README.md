@@ -102,7 +102,7 @@ The repository includes [`render.yaml`](./render.yaml) as a Render Blueprint. Af
 
 1. In Render, choose **New → Blueprint** and connect this repository.
 2. Add `GEMINI_API_KEY` as a secret environment variable when prompted.
-3. Deploy the `travel-ai` web service.
+3. Deploy the `travel-ai` web service on Render’s free instance tier.
 
 The service uses `npm install && npm run build` to build and `npm start` to run. It reads Render’s `PORT` environment variable and falls back to `3000` for local use.
 
