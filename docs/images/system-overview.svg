@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="510" viewBox="0 0 1200 510" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">TravelAI system overview</title>
+  <desc id="description">An isometric stack connects the React and TypeScript interface to the Express API, which calls Gemini. Browser local storage keeps trip and profile state on the device.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10232B"/>
+      <stop offset="1" stop-color="#1A3035"/>
+    </linearGradient>
+    <linearGradient id="top" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F8F5EC"/>
+      <stop offset="1" stop-color="#E5E0D3"/>
+    </linearGradient>
+    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#76D1C0"/>
+      <stop offset="1" stop-color="#298F8E"/>
+    </linearGradient>
+    <linearGradient id="amber" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F3D28B"/>
+      <stop offset="1" stop-color="#D39D54"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feGaussianBlur stdDeviation="13"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="510" rx="28" fill="url(#bg)"/>
+  <path d="M600 70 1078 307 600 451 122 307 600 70Z" fill="#07171D" opacity=".45"/>
+  <ellipse cx="598" cy="394" rx="415" ry="48" fill="#07171D" opacity=".46" filter="url(#shadow)"/>
+
+  <path d="M359 170 600 51l241 119-241 123-241-123Z" fill="#DCE8E0"/>
+  <path d="M359 170v44l241 123v-44L359 170Z" fill="#D8D0C1"/>
+  <path d="M600 293v44l241-123v-44L600 293Z" fill="#BFB8AA"/>
+  <path d="m386 170 214-106 214 106-214 109-214-109Z" fill="url(#top)"/>
+  <rect x="456" y="122" width="288" height="101" rx="12" fill="#17323A"/>
+  <rect x="469" y="135" width="262" height="75" rx="7" fill="#F5F1E8"/>
+  <rect x="484" y="150" width="91" height="46" rx="5" fill="url(#teal)"/>
+  <path d="m495 184 18-17 13 10 18-20 21 27h-70Z" fill="#F5F1E8" opacity=".9"/>
+  <rect x="588" y="151" width="125" height="7" rx="3.5" fill="#63746C"/>
+  <rect x="588" y="166" width="101" height="6" rx="3" fill="#B0B5AA"/>
+  <rect x="588" y="180" width="116" height="6" rx="3" fill="#B0B5AA"/>
+  <text x="600" y="245" text-anchor="middle" fill="#20353A" font-family="Arial,sans-serif" font-size="16" font-weight="700">REACT + TYPESCRIPT</text>
+  <text x="600" y="266" text-anchor="middle" fill="#5D6A64" font-family="Arial,sans-serif" font-size="13">Explore · plan · save</text>
+
+  <path d="M359 228 600 351l241-123v45L600 396 359 273v-45Z" fill="#1C6263"/>
+  <path d="M359 228 600 351l241-123-241-120-241 120Z" fill="url(#teal)"/>
+  <path d="M395 232 600 130l205 102-205 105-205-105Z" fill="#F2F1E7"/>
+  <rect x="487" y="195" width="226" height="74" rx="11" fill="#17323A"/>
+  <rect x="504" y="211" width="56" height="42" rx="6" fill="#D17C5C"/>
+  <path d="M518 233h28m-21-9 10 9-10 9" stroke="#FFF8EC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="576" y="211" width="120" height="7" rx="3.5" fill="#E3E9DF"/>
+  <rect x="576" y="227" width="95" height="6" rx="3" fill="#97AAA0"/>
+  <rect x="576" y="241" width="108" height="6" rx="3" fill="#97AAA0"/>
+  <text x="600" y="291" text-anchor="middle" fill="#20353A" font-family="Arial,sans-serif" font-size="16" font-weight="700">EXPRESS API</text>
+  <text x="600" y="312" text-anchor="middle" fill="#5D6A64" font-family="Arial,sans-serif" font-size="13">Rate-limited AI requests</text>
+
+  <path d="M359 286 600 409l241-123v44L600 453 359 330v-44Z" fill="#B87B3F"/>
+  <path d="M359 286 600 409l241-123-241-120-241 120Z" fill="url(#amber)"/>
+  <path d="M413 291 600 198l187 93-187 96-187-96Z" fill="#F8F1DF"/>
+  <path d="m483 291 117-58 117 58-117 60-117-60Z" fill="#17323A"/>
+  <circle cx="600" cy="290" r="19" fill="#76D1C0"/>
+  <path d="m592 290 6 6 12-13" stroke="#17323A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="600" y="372" text-anchor="middle" fill="#20353A" font-family="Arial,sans-serif" font-size="16" font-weight="700">GEMINI + LOCAL STORAGE</text>
+  <text x="600" y="393" text-anchor="middle" fill="#5D6A64" font-family="Arial,sans-serif" font-size="13">AI plans and chat · saved workspace data</text>
+
+  <path d="M265 213h-86m0 0 13-13m-13 13 13 13" stroke="#8BD8C8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="60" y="183" width="154" height="58" rx="14" fill="#17323A" stroke="#34525A"/>
+  <text x="137" y="207" text-anchor="middle" fill="#F8F5EC" font-family="Arial,sans-serif" font-size="13" font-weight="700">TRAVELER</text>
+  <text x="137" y="226" text-anchor="middle" fill="#AFC2BC" font-family="Arial,sans-serif" font-size="12">Browser</text>
+
+  <path d="M935 291h85m0 0-13-13m13 13-13 13" stroke="#F2C879" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="1018" y="260" width="132" height="62" rx="14" fill="#17323A" stroke="#66573B"/>
+  <text x="1084" y="285" text-anchor="middle" fill="#F8F5EC" font-family="Arial,sans-serif" font-size="13" font-weight="700">GEMINI API</text>
+  <text x="1084" y="305" text-anchor="middle" fill="#D8C79E" font-family="Arial,sans-serif" font-size="12">Secret key on server</text>
+</svg>

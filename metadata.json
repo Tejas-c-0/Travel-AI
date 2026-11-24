@@ -1,0 +1,8 @@
+{
+  "name": "TravelAI",
+  "description": "AI-powered travel planning platform that helps users plan trips, compare transport, find hotels and street food, track prices, and chat with a personal AI travel assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

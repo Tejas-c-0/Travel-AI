@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" fill="none" role="img" aria-labelledby="title description">
+  <title id="title">A trip through TravelAI</title>
+  <desc id="description">Three isometric cards show destination discovery, an AI trip plan, and saved travel details connected by a winding route.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="420" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10232B"/>
+      <stop offset="1" stop-color="#172E35"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F8F5EC"/>
+      <stop offset="1" stop-color="#E9E3D6"/>
+    </linearGradient>
+    <linearGradient id="sea" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#5FC8BD"/>
+      <stop offset="1" stop-color="#188F91"/>
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="1" height="1" color-interpolation-filters="sRGB" filterUnits="objectBoundingBox">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#background)"/>
+  <circle cx="1065" cy="80" r="118" fill="#278C8B" opacity=".12"/>
+  <circle cx="1065" cy="80" r="76" stroke="#7FD6C5" opacity=".18"/>
+  <path d="M92 310C234 310 256 178 395 178s169 140 319 140 167-123 330-123" stroke="#80D7C6" stroke-width="2" stroke-dasharray="5 9" opacity=".65"/>
+  <circle cx="92" cy="310" r="5" fill="#F2C879"/>
+  <circle cx="1044" cy="195" r="5" fill="#F2C879"/>
+
+  <g transform="translate(95 86)">
+    <ellipse cx="145" cy="220" rx="144" ry="25" fill="#07171D" opacity=".5" filter="url(#shadow)"/>
+    <path d="M30 64 145 6l116 58-116 60L30 64Z" fill="#D6E4DD"/>
+    <path d="M30 64v106l115 59V122L30 64Z" fill="url(#card)"/>
+    <path d="M145 122v107l116-59V64l-116 58Z" fill="#DAD3C5"/>
+    <path d="m47 70 98-50 99 50-99 51L47 70Z" fill="url(#sea)"/>
+    <path d="M47 70v38l98 51v-38L47 70Z" fill="#F3EBD9"/>
+    <path d="M145 121v38l99-51V70l-99 51Z" fill="#D6CEBD"/>
+    <path d="M76 76c18-14 40-12 57 1 11 8 22 9 37 2 14-7 28-5 41 2" stroke="#F7F1E5" stroke-width="3" stroke-linecap="round"/>
+    <circle cx="178" cy="82" r="9" fill="#F2C879"/>
+    <path d="M177 91c0 11-13 18-13 26 0 7 6 12 13 12s13-5 13-12c0-8-13-15-13-26Z" fill="#C7654F"/>
+    <text x="54" y="186" fill="#243338" font-family="Arial,sans-serif" font-size="15" font-weight="700">01  DISCOVER</text>
+    <text x="54" y="207" fill="#61706C" font-family="Arial,sans-serif" font-size="13">Find a place that feels like yours</text>
+  </g>
+
+  <g transform="translate(420 53)">
+    <ellipse cx="152" cy="260" rx="150" ry="27" fill="#07171D" opacity=".52" filter="url(#shadow)"/>
+    <path d="M24 72 153 7l130 65-130 67L24 72Z" fill="#DDE9E2"/>
+    <path d="M24 72v131l129 67V139L24 72Z" fill="url(#card)"/>
+    <path d="M153 139v131l130-67V72l-130 67Z" fill="#D6D0C2"/>
+    <path d="m47 81 106-54 108 54-108 56L47 81Z" fill="#D7ECE2"/>
+    <path d="M65 85h91v8H65zm0 17h67v6H65zm106-1 35-18v43l-35 18V101Z" fill="#508D7E" opacity=".82"/>
+    <path d="m170 154 65-33v8l-65 33zm0 19 42-21v7l-42 22zM51 159h75v7H51zm0 17h53v6H51z" fill="#88958A"/>
+    <circle cx="216" cy="96" r="7" fill="#D17C5C"/>
+    <text x="49" y="225" fill="#243338" font-family="Arial,sans-serif" font-size="15" font-weight="700">02  PLAN</text>
+    <text x="49" y="246" fill="#61706C" font-family="Arial,sans-serif" font-size="13">Shape a route around your days</text>
+  </g>
+
+  <g transform="translate(770 94)">
+    <ellipse cx="145" cy="212" rx="142" ry="25" fill="#07171D" opacity=".48" filter="url(#shadow)"/>
+    <path d="M29 61 145 3l117 58-117 60L29 61Z" fill="#DDE8E1"/>
+    <path d="M29 61v103l116 60V121L29 61Z" fill="url(#card)"/>
+    <path d="M145 121v103l117-60V61l-117 60Z" fill="#D8D1C4"/>
+    <path d="m49 68 96-49 98 49-98 50L49 68Z" fill="#E4D9C6"/>
+    <path d="M69 72v52l75 38V111L69 72Z" fill="#FBF8F0"/>
+    <path d="M152 112v50l73-38V72l-73 40Z" fill="#76B9A5"/>
+    <path d="M85 84 131 107v8l-46-24zm0 17 36 18v6l-36-18zm83 25 39-20v6l-39 21z" fill="#73817A"/>
+    <path d="m101 129 20 10v10l-20-10z" fill="#D17C5C"/>
+    <text x="53" y="184" fill="#243338" font-family="Arial,sans-serif" font-size="15" font-weight="700">03  TAKE IT WITH YOU</text>
+    <text x="53" y="204" fill="#61706C" font-family="Arial,sans-serif" font-size="13">Keep bookings and notes close</text>
+  </g>
+</svg>
